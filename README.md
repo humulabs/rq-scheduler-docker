@@ -1,7 +1,7 @@
 [![](https://quay.io/repository/humu/rq-scheduler/status)](https://quay.io/repository/humu/rq-scheduler)
 
 # rq-scheduler
-Docker image of [rq-scheduler](https://github.com/ui/rq-scheduler) with optional [Papertrail](https://papertrailapp.com/) logging.
+Docker image of [rq-scheduler](https://github.com/ui/rq-scheduler).
 
 # Usage
 
