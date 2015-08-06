@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+
+exec /usr/local/bin/rqscheduler \
+  -i $INTERVAL \
+  $OPTIONS \
+  2>&1 | logger -t rq-scheduler
