@@ -15,8 +15,8 @@ docker run -d quay.io/humu/rq-scheduler \
 The following environment variables are supported. See [rq-scheduler](https://github.com/ui/rq-scheduler) doc and code for details:
 
 * `INTERVAL` - how often scheduler checks for jobs in float seconds, default: 60
-* `RQ_REDIS_HOST` - redis host (only if `REDIS_URL` not set)
-* `RQ_REDIS_PORT` - redis port (only if `REDIS_URL` not set)
+* `RQ_REDIS_HOST` - redis host (only if `RQ_REDIS_URL` not set)
+* `RQ_REDIS_PORT` - redis port (only if `RQ_REDIS_URL` not set)
 * `RQ_REDIS_DB` - redis database number
 * `RQ_REDIS_PASSWORD` - redis password
 * `RQ_REDIS_URL` - full URL of redis (in lieu of `REDIS_HOST` and `REDIS_PORT`)
